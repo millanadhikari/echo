@@ -25,7 +25,7 @@ export default function Page() {
             <OrganizationSwitcher hidePersonal={true} />
             <Button onClick={() => addUser()}>Add</Button>
             <p className="text-white">{add(2, 2)}</p>
-            <p>{JSON.stringify(users)}</p>
+            {/* <p>{JSON.stringify(users)}</p> */}
           </div>
         </div>
       </Authenticated>
